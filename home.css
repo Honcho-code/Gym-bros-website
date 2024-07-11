@@ -1,0 +1,235 @@
+*{
+    color: #f0f0ee;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section{
+    background-image: url(pexels-photo-3253501.jpeg);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.overlay{
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(6, 3, 9, 0.7);
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+Header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 90px;
+    width: 100%;
+    background-color: #030609;
+    z-index: 1;
+}
+.logo p{
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 700;
+    color: #c56001;
+}
+.menu a{
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all ease-in-out .55s;
+}
+.menu a:hover{
+    color: #c56001;
+}
+main{
+    margin: 0px 90px;
+}
+.caption {
+    position: sticky;
+}
+.caption h3{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+.caption p{
+    color: #adadad;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -60px;
+}
+.cta-button button{
+    width: 150px;
+    height: 45px;
+    background-color: #c56001;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.cta-button button:last-child{
+    background: none;
+    border:solid #c56001 1PX;
+}
+.our-program{
+    background-color: #030609;
+    padding: 2px 90px;
+    margin-top: 0;
+}
+.our-program h3{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 40px;
+    position: sticky;
+    
+}
+.list-plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.gym-process img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.gym-process{
+    width: 20%;
+    background: #1c2229;
+    border-radius: 10px;
+    border: solid #c56001 2px;
+    cursor: pointer;
+}
+.gym-process p{
+    margin-top: -4px;
+    font-size: 15px;
+    color: #c56001;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.gym-process h3{
+    margin-top: -10px;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.gym-process h1{
+    margin-top: -10px;
+    font-size: 16px;
+    padding: 0 10px;
+    font-weight: 200;
+    color: #adadad;
+}
+.gym-process button{
+    width: 120px;
+    height: 35px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background-color: #c56001;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all ease .55s;
+}
+.gym-process button:hover{
+    background: none;
+    border: solid #c56001 1px;
+}
+.pricing-plan div{
+    text-align: center;
+}
+.pricing-plan div h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.pricing-plan div p{
+    font-size: 16px;
+    color: #adadad;
+    margin-top: -20px
+}
+.price-tag{
+    display: flex;
+    align-items: center;
+    margin: 0 180px;
+    justify-content: space-between;
+}
+.tag-1{
+    margin: 40px 0;
+    width: 300px;
+    height: 400px;
+    background: #1c2229;
+    border-radius: 10px;
+}
+.tag-1 h2{
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left ;
+    padding-left: 40px;
+    margin-top: -10px;
+}
+.tag-1 h4{
+    margin-top: 25px;
+    font-size: 14px;
+    color: #c56001;
+    font-weight: 600;
+    text-align: left ;
+    padding-left: 40px;
+}
+.tag-1 hr{
+    margin: 0 40px;
+    border-color: #424344;
+    margin-top: -20px;
+}
+.program-feact{
+
+    margin-top: 20px;
+    
+}
+.program-feact a{
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+    font-size: 14px;
+    text-align: left ;
+    padding-left: 40px;
+    color: #adadad;
+}
+.program-feact a i{
+    padding-right: 10px;
+    color: #adadad;
+}
+.tag-1 button{
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 230px;
+    height: 40px;
+    background-color: #c56001;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: all ease .55s;
+}
+.tag-1 button:hover{
+    background: none;
+    border: solid #c56001 1px;
+}
+.tag-1:nth-child(2){
+    border: solid #c56001 2px;
+}
